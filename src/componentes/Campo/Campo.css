@@ -1,0 +1,52 @@
+.campo {
+    margin: 24px 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.campo label {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 8px;
+}
+
+.campo input {
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border: none;
+    padding: 30px 20px;
+    outline-color: #6278F7; /*cambia la linea del contorno del input
+                                cuando se mueve a un input diferente ya sea con tabulador o tab */
+    font-size: 16px;
+    box-sizing: border-box; /*Modifica en este caso al 100% los input*/
+                           /*La propiedad box-sizing en CSS indica cómo se deben calcular 
+                             las medidas de un elemento. Por defecto, CSS considera que 
+                             el ancho y alto de la caja son las propiedades width y height. 
+                             Sin embargo, box-sizing: border-box altera este comportamiento 
+                             y tiene un propósito muy útil.
+
+                            Aquí está la explicación:
+
+                            content-box: Este es el valor inicial y por defecto especificado por el estándar CSS. 
+                            Las propiedades width y height no incluyen el borde ni el relleno. Por ejemplo, 
+                            si defines un elemento con un ancho de 100 píxeles, la caja del contenido del elemento 
+                            tendrá 100 píxeles de ancho, y el ancho de cualquier borde o relleno se añadirá 
+                            al ancho final desplegado1.
+
+                            border-box: Este valor le dice al navegador que tome en cuenta cualquier valor 
+                            especificado para el borde o el relleno al calcular el ancho o alto de un elemento. 
+                            Es decir, si defines un elemento con un ancho de 100 píxeles, esos 100 píxeles 
+                            incluirán cualquier borde o relleno que se añada, y la caja de contenido 
+                            se encogerá para absorber ese ancho extra. Esto hace que sea mucho 
+                            más fácil dimensionar elementos1.
+                            
+                            En resumen, border-box es especialmente útil cuando quieres que el
+                             ancho y alto de un elemento incluyan tanto el contenido como el borde y el relleno */
+}
+
+.campo-color input {
+    height: 40px;
+    padding: 5px 20px;
+}

@@ -1,0 +1,25 @@
+.formulario {
+    display: flex;
+    justify-content: space-evenly; /*Genera un espacio en este caso como existen 
+                                     2 formularios genera un espacio en el centro 
+                                     de los dos formularios */
+    margin: 80px 50px; /*margin 80px modifica el elemento de arriba y abajo, 50px modifica a los lados */
+    flex-wrap: wrap; /*Aqui si 2 elementos ya no acaben se movera uno hacia abajo */
+    gap: 20px; /*agrega espacio entre 2 elementos de la misma clase */
+}
+
+.formulario form {
+    background-color: #F6F6F6;
+    box-shadow: 7px 7px 15px rgba(0, 0, 0, 25%);
+    border-radius: 20px;
+    padding: 8px 100px;
+    flex:1; /*Genera un espacio para que 2 elementos se mantengan de forma horizontal
+              hasta un punto que uno se va hacia abajo porque esta demaciado comprimida la pagina */
+}
+
+.formulario h2 {
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+
+}
